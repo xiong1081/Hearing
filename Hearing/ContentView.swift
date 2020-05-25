@@ -9,13 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        Text("Hello, World!")
+        Button(action: {
+            self.userData.hearingOpen = !self.userData.hearingOpen
+            if self.userData.hearingOpen {
+                AudioRecorder.shared.record()
+            } else {
+                AudioRecorder.shared.stop()
+            }
+        }) {
+            Text(self.userData.hearingOpen ? "关闭" : "开启")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(UserData())
     }
 }

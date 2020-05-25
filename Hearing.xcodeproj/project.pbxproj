@@ -14,6 +14,8 @@
 		095BA4D0247A00C5002D6E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095BA4CF247A00C5002D6E80 /* Assets.xcassets */; };
 		095BA4D3247A00C5002D6E80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095BA4D2247A00C5002D6E80 /* Preview Assets.xcassets */; };
 		095BA4D6247A00C5002D6E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095BA4D4247A00C5002D6E80 /* LaunchScreen.storyboard */; };
+		095BA4DE247A0A8F002D6E80 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BA4DD247A0A8F002D6E80 /* UserData.swift */; };
+		095BA4E0247A0E38002D6E80 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BA4DF247A0E38002D6E80 /* AudioRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		095BA4D2247A00C5002D6E80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		095BA4D5247A00C5002D6E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095BA4D7247A00C5002D6E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095BA4DD247A0A8F002D6E80 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		095BA4DF247A0E38002D6E80 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				095BA4C6247A00C3002D6E80 /* AppDelegate.swift */,
 				095BA4C8247A00C3002D6E80 /* SceneDelegate.swift */,
 				095BA4CD247A00C3002D6E80 /* ContentView.swift */,
+				095BA4DD247A0A8F002D6E80 /* UserData.swift */,
+				095BA4DF247A0E38002D6E80 /* AudioRecorder.swift */,
 				095BA4CF247A00C5002D6E80 /* Assets.xcassets */,
 				095BA4D4247A00C5002D6E80 /* LaunchScreen.storyboard */,
 				095BA4D7247A00C5002D6E80 /* Info.plist */,
@@ -152,6 +158,8 @@
 				095BA4CC247A00C3002D6E80 /* Hearing.xcdatamodeld in Sources */,
 				095BA4C7247A00C3002D6E80 /* AppDelegate.swift in Sources */,
 				095BA4CE247A00C3002D6E80 /* ContentView.swift in Sources */,
+				095BA4E0247A0E38002D6E80 /* AudioRecorder.swift in Sources */,
+				095BA4DE247A0A8F002D6E80 /* UserData.swift in Sources */,
 				095BA4C9247A00C3002D6E80 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,6 +301,7 @@
 				DEVELOPMENT_TEAM = S8355PYJ5H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Hearing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +322,7 @@
 				DEVELOPMENT_TEAM = S8355PYJ5H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Hearing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
